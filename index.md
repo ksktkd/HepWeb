@@ -18,16 +18,20 @@ title: Hep Web
 </script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-$$
-\centering
-\frac{\partial \theta}{\partial t}= \frac{\partial}{\partial z}
-\left[ K(\theta) \left (\frac{\partial \psi}{\partial z} + 1 \right) \right]\
-$$
 
 
 # 荷電粒子の振る舞い
 エネルギーが上がっていくに従って、支配的な反応が変わっていく。光電効果＞コンプトン＞対生成
 ## ベーテブロッホ
+
+$$
+\frac{1}{\rho} \frac{dE}{dx} = D\frac{Z}{A}z^2\frac{1}{\beta^2} \left( \ln \left[ \frac{2mc^2\beta^2}{I(1-\beta^2)}\right] -\beta^2 - \frac{\delta}{2}\right)
+$$
+
+* 粒子の速度ベータの2乗に反比例
+    * 速度が大きくなると、dE/dxは小さくなる（エネルギーを落とさない）
+    * 速度が小さくなると、dE/dxが大きくなる（よくエネルギーを落とす）
+* 電荷Z/Aに正比例
 
 # HEP 検出器の基本
 ## 内部秘跡検出器
@@ -65,6 +69,10 @@ An electron arriving in the vicinity of an atom will be affected by the electrom
     * 電子がγを放出し始めるエネルギー。入射高エネルギー粒子のエネルギーがCになるまでシャワー生成が続く（それを下回ると生成が終わる）
 * RM：Moliere radius 
     * 横方向（transverse）シャワーサイズ。
+
+$$
+\frac{\sigma(E_0)}{E_0} = \frac{a}{\sqrt{E_0}} \oplus \frac{b}{E_0} \oplus c
+$$
 
 * a：stocastic term、統計的なゆらぎによる誤差（サンプリングカロリメーターだと、aが大きい）
 * b：noise term、ノイズ・パイルアップ
