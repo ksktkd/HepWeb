@@ -21,11 +21,20 @@ title: Hep Web
 
 
 # 荷電粒子の振る舞い
-<img src="fig/photon-energy-dependent-cross-sections.png"/>
+## Photon interaction with materials
+<img width=50% src="fig/photon-energy-dependent-cross-sections.png"/>
 
+エネルギーが上がっていくに従って、支配的な反応が変わっていく。
 
+* 光電効果
+* レイリー散乱
+    * $$\gamma$$ 光子が電子と弾性散乱を起こす。
+* コンプトン散乱
+    * 光子が原子核の電子と非弾性散乱を起こす。
+* 対生成
+    * 光子が電子や原子核と反応して、電子陽電子対を生成する。
+    * 図から分かるように、最低でも1MeV以上のエネルギーが必要となる。
 
-エネルギーが上がっていくに従って、支配的な反応が変わっていく。光電効果＞コンプトン＞対生成
 ## ベーテブロッホ
 
 $$
