@@ -21,6 +21,10 @@ title: Hep Web
 
 
 # 荷電粒子の振る舞い
+<img src="fig/photon-energy-dependent-cross-sections.png"/>
+
+
+
 エネルギーが上がっていくに従って、支配的な反応が変わっていく。光電効果＞コンプトン＞対生成
 ## ベーテブロッホ
 
@@ -88,3 +92,8 @@ $$
 * Secondary neutrinos (not detectable) 
 
 ## ミューオン検出器
+
+
+
+# Reference
+* http://www.nucl.phys.titech.ac.jp/presen/data/thesis/b/ay2008/okamura/Bthesis.pdf
