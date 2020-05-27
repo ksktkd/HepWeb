@@ -1,23 +1,12 @@
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [['$','$'], ['\\(','\\)']],
-      processEscapes: true
-    },
-    CommonHTML: { matchFontHeight: false },
-    displayAlign: "left",
-    displayIndent: "2em",
-    TeX: {
-      equationNumbers: { autoNumber: "AMS" },
-    }
-  });
-</script>
-<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
-
 # 基礎知識
 ## 特殊相対性理論
-$$E^2=(mc^2)^2+(pc)^2$$
-$$p=\gamma mv$$
-$$E=\gamma mc^2$$
-$$\beta = \frac{v}{c}$$
-$$\gamma = \frac{1}{\sqrt{1-\beta^2}}$$
+* $$\beta = \frac{v}{c}$$
+* $$\gamma = \frac{1}{\sqrt{1-\beta^2}}$$
+* $$E^2=(mc^2)^2+(pc)^2$$
+
+「光速に近づくほど重くなる」は$$\gamma$ファクターを用いて次のように表現される。
+* $$m\to \gamma m$$
+さらにこれを用いることで、（光速に近い速度で運動する粒子の）相対論的な運動量・エネルギーは
+* $$p=\gamma mv$$
+* $$E=\gamma mc^2$$
+と表される事がわかる（単に$$\gamma m$$を使っただけ。運動量にいたっては高校物理の定義$$mv$$のまま。）。
