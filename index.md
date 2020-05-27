@@ -21,6 +21,9 @@ title: Hep Web
 # 参考文献
 * http://pdg.lbl.gov/2020/2020/reviews/contents_sports.html
 
+# はじめに
+* [基礎知識](basic/notation.md)
+
 # 実験手法
 * [加速器実験の基礎知識](experiment/accelerator_physics_of_colliders.md)
 * [物質との相互作用](experiment/passage_of_particles_through_matters.md)
