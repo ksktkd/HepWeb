@@ -13,10 +13,16 @@
     * $$z$$：電荷
 
 平均エネルギー損失（$$<dE/dx>$$）はBethe-Blochの式で記述される。
+
 $$
 \frac{1}{\rho} \frac{dE}{dx} = D\frac{Z}{A}z^2\frac{1}{\beta^2} \left( \ln \left[ \frac{2mc^2\beta^2}{I(1-\beta^2)}\right] -\beta^2 - \frac{\delta}{2}\right)
 $$
-この式は$$0.1<\beta\gamma<1000$$の領域で有効。
+
+この式は$$0.1<\beta\gamma<1000$$の領域で有効。標的のZが大きいほど、エネルギー損失は大きくなる。
+図のBethe領域に注目。初めは$$1/\beta^2$$によって$$<-dE/dx>$$がどんどん小さくなっていく。
+それに反して対数の項は大きくなっていくため、$$-\frac{dE}{dx}$$がある程度の所で極小値を取る。
+この領域に該当するエネルギーで通過する粒子（ミューオン）はMinimized Particle（MIP; みっぷ）と呼ばれる。
+それ以上になると他の項の影響が大きくなってきて$$-\frac{dE}{dx}$$の値が大きくなっていく。
 
 ## エネルギー損失（low-energy）
 ## $$\delta-rays$$
