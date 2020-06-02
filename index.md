@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Hep Web
 ---
 # 参考文献
