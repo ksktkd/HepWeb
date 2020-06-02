@@ -2,22 +2,6 @@
 layout: default
 title: Hep Web
 ---
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [['$','$'], ['\\(','\\)']],
-      processEscapes: true
-    },
-    CommonHTML: { matchFontHeight: false },
-    displayAlign: "left",
-    displayIndent: "2em",
-    TeX: {
-      equationNumbers: { autoNumber: "AMS" },
-    }
-  });
-</script>
-<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
-
 # 参考文献
 * http://pdg.lbl.gov/2020/2020/reviews/contents_sports.html
 
