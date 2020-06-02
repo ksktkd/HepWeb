@@ -73,33 +73,33 @@ $$
 ATLAS検出器に特徴的な磁場は、このトロイダル磁場です。
 ミューオンの軌道を$$R$$方向へ曲げることで、ミューオン検出器が運動量を測定できるようにしている。
 
+# 検出器各論
 ## 内部秘跡検出器
 ### IBL
 ### Pixel
 ### SCT
 ### TRT
+
 ## カロリメーター
-粒子のエネルギーを測定する。
-→ bremsstrahlung を起こしてエネルギーを落とす +$$\gamma$$ を放出する
-Definition: 
-The radiation length of a material is the mean length (in cm) to reduce the energy of an electron by the factor 1/e.   
 
-Physical explanation: 
-An electron arriving in the vicinity of an atom will be affected by the electromagnetic field produced by the electrons of this atom. Because of this interaction, the electron will emit photons which will reduce its energy. This is called the Bremsstrahlung radiation. It is clear that this interaction will depend on the number of electrons of the atom (atomic number Z) but also the size of the atom, represented by its atomic weight A.  
+粒子のエネルギーを測定する。シャワーの組成によって、二種類のカロリメーターを準備する。
 
-### 電磁カロリメーター
-入射粒子は物質中の核子と電磁相互作用をして軌道を曲げられる。
-電子、光子を放出させて電磁シャワーを観測する。
-基本的に入射粒子のエネルギーが大きいほど、測定誤差は小さくなる。
+||荷電|中性|
+|:---:|:---:|:---:|
+|電磁シャワー作る| $$e^{\pm}$$| $$\gamma$$、$$\pi^{0}$$|
+|電磁シャワー作らない|$$\pi^{\pm}, K^{\pm}, p, \mu^{\pm}$$|$$n, \nu$$|
 
-[ターゲット]
-* $$e$$
-    * 核子による電磁相互作用で軌道を曲げて制動放射（Bremsstrahlung）を起こし、測定する
-* $$\gamma$$
-    * 核子との相互作用で対生成を起こさせて、電子の生成
-    * 生成された電子が制動放射で#gammaを放出。。。を繰り返し（カスケードシャワーを発生させて）検知する
+電磁シャワーによってエネルギーを測定するのが電磁カロリメーター、ハドロニックシャワーによってエネルギーを測定するのがハドロンカロリメーターです。
 
-[Key point]
+### シャワーについて
+#### 電磁シャワー
+$$e$$と$$\gamma$$が制動放射（Bremsstrahlung）、対生成で雪崩増幅的に引き起こすのが、電磁シャワーである。
+
+- 電子はカロリメーター内の原子核と電磁相互作用して、軌道を曲げられ$$\gamma$$を放出する。
+- $$\gamma$$は対生成により、電子対を生成する。
+
+これらの反応が連続しておこることで、シャワーが生成される。
+
 * $$X_0$$：Radiation length、放射長
     * 入射粒子のエネルギーが 1/e （〜超ざっくり半分）になる距離
     * 半分、と考えるとX0は各反応点から反応点までの距離に相当
@@ -108,6 +108,37 @@ An electron arriving in the vicinity of an atom will be affected by the electrom
     * 入射高エネルギー粒子のエネルギーが$$E_C$$になるまでシャワー生成が続く（それを下回ると生成が終わる）
 * RM：Moliere radius 
     * 横方向（transverse）シャワーサイズ。
+
+放射長（radiation length）は次の式で定義される。
+
+$$
+X_0 = \frac{716.4~\mathrm{g}~\mathrm{cm^{-2}~A}{Z(Z+1)\ln(287/\sqrt{Z})}
+$$
+
+電磁シャワーはこの量で特徴づけることができ、エネルギー損失は次式で表される。
+
+$$
+-\frac{dE}{dx} = \frac{E}{X_0}
+\Leftrightarrow E=E_0 e^{-x/X_0}
+$$
+
+高エネルギーの$$\gamma$$は対生成を引き起こすため、生成された電子対が同様に電磁シャワーを形成する。
+
+#### ハドロニックシャワー
+強い相互作用によって引き起こされるため、電磁シャワーに比べて複雑に発展していく。ハドロニック成分と電磁成分が並行して発生していく。
+シャワーを特徴づけるスケールは$$\lammbda$$（相互作用長）であり、放射長に比べて十分大きい。
+そのため電磁シャワーはすぐに発達してすぐに終わるが、ハドロニックシャワーは横にも縦にも大きく広がる。
+
+Definition: 
+The radiation length of a material is the mean length (in cm) to reduce the energy of an electron by the factor 1/e.   
+
+Physical explanation: 
+An electron arriving in the vicinity of an atom will be affected by the electromagnetic field produced by the electrons of this atom. Because of this interaction, the electron will emit photons which will reduce its energy. This is called the Bremsstrahlung radiation. It is clear that this interaction will depend on the number of electrons of the atom (atomic number Z) but also the size of the atom, represented by its atomic weight A.  
+
+## 電磁カロリメーター
+入射粒子は物質中の核子と電磁相互作用をして軌道を曲げられる。
+電子、光子を放出させて電磁シャワーを観測する。
+基本的に入射粒子のエネルギーが大きいほど、測定誤差は小さくなる。
 
 $$
 \frac{\sigma(E_0)}{E_0} = \frac{a}{\sqrt{E_0}} \oplus \frac{b}{E_0} \oplus c
@@ -179,15 +210,6 @@ ATLAS検出器が採用している座標系を次の図に示す。
 $$
 f(AB\to CX) \equiv E \frac{d^3\sigma}{d^3p} = E \frac{d^3\sigma}{\pidp_Ldp^2_T}
 $$
-
-
-
-
-
-
-
-
-
 
 
 # Reference
