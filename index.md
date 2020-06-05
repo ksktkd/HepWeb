@@ -7,6 +7,7 @@ title: Hep Web
 
 # はじめに
 * [基礎知識](basic/notation.md)
+* [散乱について](basic/scattering.md)
 
 # 実験手法
 * [加速器実験の基礎知識](experiment/accelerator_physics_of_colliders.md)
