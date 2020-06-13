@@ -16,6 +16,9 @@ title: Hep Web
 * [ATLAS実験について](docs/experiment/atlas.md)
 * [統計処理基礎事項](docs/stats/index.md)
 
+# ROOT解析の方法
+* [ROOTの解析](docs/root/root.md)
+
 # 標準模型
 
 # 参考文献
