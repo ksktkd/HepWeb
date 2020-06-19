@@ -19,8 +19,12 @@ title: Hep Web
 # ROOT解析の方法
 * [ROOTの解析](docs/root/root.md)
 
+# 統計確率処理
+* [統計処理](docs/stats/index.md)
+## Paper reading
+* [HistFactory](docs/stats/paper_histfactory.md)
+
 # 標準模型
 
 # 参考文献
 * http://pdg.lbl.gov/2020/2020/reviews/contents_sports.html
-

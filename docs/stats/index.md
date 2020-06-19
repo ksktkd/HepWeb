@@ -132,3 +132,8 @@ $$
 
 が求められる。
 「フィットが上手く行っていれば $\chi^2/ndf$は1になる」はここを根拠としている。
+
+
+# フィット
+- https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/commonstatsmethods/
+## テンプレート
